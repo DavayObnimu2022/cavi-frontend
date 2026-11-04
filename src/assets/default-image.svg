@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Медицинская услуга">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2027"/>
+      <stop offset="0.5" stop-color="#203a43"/>
+      <stop offset="1" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4fc3f7"/>
+      <stop offset="1" stop-color="#29b6f6"/>
+    </linearGradient>
+    <radialGradient id="soft" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4fc3f7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#4fc3f7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="300" r="230" fill="url(#soft)"/>
+  <circle cx="400" cy="300" r="150" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2"/>
+  <circle cx="400" cy="300" r="190" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+  <path d="M400 430s-118-72-118-148c0-45 33-78 76-78 24 0 42 13 42 13s18-13 42-13c43 0 76 33 76 78 0 76-118 148-118 148z" fill="url(#glow)"/>
+  <path d="M225 300h95l25-60 40 125 28-80 18 40h144" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
